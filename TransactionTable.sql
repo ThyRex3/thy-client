@@ -1,4 +1,4 @@
-CREATE TABLE Transaction{
+CREATE TABLE Transaction {
 	Record_ID uuid PRIMARY KEY,
 	Cashier_ID uuid  NOT NULL,
 	Foreign Key (Cashier_ID) References Employee(Record_ID),
